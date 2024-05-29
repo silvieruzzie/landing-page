@@ -1,3 +1,19 @@
 * {
     border: 1px solid black;
 }
+
+.logo {
+    height: 125px;
+    width: 200x;
+}
+
+.picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: space-between;
+}

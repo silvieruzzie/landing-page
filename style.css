@@ -1,4 +1,4 @@
-* {
+ *{
     border: 1px solid black;
 }
 
@@ -16,4 +16,39 @@
 .img-wrapper {
     display: flex;
     justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.main-picture {
+    width: 100%;
+    height: 500px;
+    margin-top: -190px;
+}
+
+.main-img-wrapper {
+    height: 200px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.intro-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.signature {
+    text-align: right;
+    
 }

@@ -4,61 +4,76 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nino Il Vannino</title>
+    <title>Nino the Vannino</title>
 </head>
 <body>
     <header>
-        <img class="logo" src="—Pngtree—small cartoon van on a_12165620.png">
+        <div class="header-left">
+            <img class="logo" src="—Pngtree—small cartoon van on a_12165620.png" alt="a white van">
+            <div class="header-logo">
+                <h2 >Nino the Vannino</h2>
+            </div>
+        </div>
         <nav class="nav-bar">
             <ul>
-                <li>INTRO</li>
-                <li>GALLERY</li>
-                <li>QUOTE</li>
+                <li><a href="#intro">INTRO</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#quote-one">QUOTE</a></li>
             </ul>            
         </nav>
     </header>
     <div class="intro-wrap">
-        <div>
-            <h1>Operation Nino</h1>
-            <p>Nino il vannino nasce dalla voglia di viaggiare ed esplorare</p>
-            <button class="botton-one">Schiaccia qui senza motivo dai!</button>
+        <div class="intro-left">
+            <h1 id="intro" class="title">Operation Nino</h1>
+            <p class="subtitle">Nino the vannino was brought to life by an insatiable yearn for nature and adventure</p>
+            <button class="button-one">Click on this button for no reason at all, come on!</button>
         </div>
-        <div class="main-img-wrapper">
-            <img class="main-picture" src="vannino.jpg">
-        </div> 
-    </div>
-    <h2>Con il Vannino puoi..</h2>
-    <div class="img-wrapper">
-        <div class="card">
-            <img class="picture" src="mangiare.jpg"> <!--add alts to pictures-->
-            <figcaption>..mangiare</figcaption>
-        </div>
-        <div class="card">
-            <img class="picture" src="riposare.jpg">
-            <figcaption>..riposare</figcaption>
-        </div>
-        <div class="card">
-            <img class="picture" src="giocare.jpg"> <!--get the picture to look better by cropping it-->
-            <figcaption>..giocare</figcaption>
-        </div>
-        <div class="card">
-            <img class="picture" src="tanto-altro.jpg">
-            <figcaption>..e tanto altro</figcaption>
+        <div class="intro-right">
+            <div class="main-img-wrapper">
+                <img class="main-picture" src="vannino.jpg" alt="ford transit custom, white">
+            </div> 
         </div>
     </div>
-    <div>
-        <q>Van: nessuna scelta fu migliore.</q>
-        <p class="signature">-C.Ruzzier</p>
-    </div>
-    <div>
-        <div>
-            <h3></h3>
-            <p></p>
+    <div class="section-one">
+        <h2 id="gallery" class="puoi">With the Vannino you can..</h2>
+        <div class="img-wrapper">
+          <div class="card">
+            <div class="eat-wrapper">
+                <img class="picture eat" src="mangiare.jpg" alt="two plates full of ramen noodles">
+            </div>
+            <figcaption>..eat</figcaption>
+          </div>
+          <div class="card">
+            <img class="picture" src="riposare.jpg" alt="Matteo sleeping on the bed in the van">
+            <figcaption>..rest</figcaption>
+          </div>
+          <div class="card">
+            <img class="picture" src="giocare.jpg" alt="Matteo playing a game of cards">
+            <figcaption>..play</figcaption>
+          </div>
+          <div class="card">
+            <img class="picture" src="tanto-altro.jpg" alt="Silvia peeing on the potty">
+            <figcaption>..and so much more</figcaption>
+          </div>
         </div>
-        <button class="botton-two"></button>
+    </div>    
+    <div class="quote-wrap">
+        <div id="quote-one" class="quote">
+            <q>Van: no other choice was a better one.</q>
+            <p class="signature">-C. Ruzzier</p>
+        </div>
+    
     </div>
+    <div class="section-two">
+        <div class="left">
+            <h3>Get yourself you own Vannino!</h3>
+            <p class="sorry">You won't be sorry!</p>
+        </div>
+        <div class="right">
+            <button class="button-two">An other button, just because!</button></div>
+        </div>
      <footer>
-        <p>Copyright &copy; Silvia Ruzzier 2024</p>
+        <p class="copyright">Copyright &copy; Silvia Ruzzier 2024</p>
      </footer>
 </body>
 </html>
